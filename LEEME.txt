@@ -1,0 +1,12 @@
+MuteAll - guia rapida
+
+/mute  -> activa o desactiva el silencio global (chat y voz).
+Los OP (o quien tenga el permiso muteall.bypass) pueden seguir hablando.
+
+COMO COMPILARLO (GitHub, sin instalar nada):
+1) Crea un repositorio NUEVO en github.com (por ejemplo "muteall").
+2) "uploading an existing file" y arrastra TODO el contenido de esta carpeta.
+3) Commit changes. Si no se subio la carpeta oculta .github, crea el archivo
+   .github/workflows/build.yml a mano con "Add file > Create new file".
+4) Pestana Actions > espera la palomita verde > descarga "MuteAll-jar" en Artifacts.
+5) Copia el .jar a plugins/ y reinicia el servidor.

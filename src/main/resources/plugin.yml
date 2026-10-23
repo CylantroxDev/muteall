@@ -1,0 +1,17 @@
+name: MuteAll
+version: 1.0.0
+main: com.cylan.muteall.MuteAllPlugin
+api-version: "26.2"
+depend: [voicechat]
+commands:
+  mute:
+    description: Silencia o reactiva a todos los jugadores, excepto OPs
+    usage: /mute
+    permission: muteall.use
+permissions:
+  muteall.use:
+    description: Permite usar /mute
+    default: op
+  muteall.bypass:
+    description: Permite hablar aunque el mute global este activo
+    default: op
